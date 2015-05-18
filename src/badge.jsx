@@ -1,7 +1,9 @@
 // ---------------------------------------------------------------------------------------
 // Badge 
 // ---------------------------------------------------------------------------------------
-var Badge = React.createClass({
+var React = require('react');
+
+module.exports = React.createClass({
 	render: function(){
 		this.props // {} 
 		return <button className="btn btn-primary" type="button">

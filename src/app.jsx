@@ -1,6 +1,6 @@
-// ---------------------------------------------------------------------------------------
-// Main 
-// ---------------------------------------------------------------------------------------
+var React = require('react');
+var ThumbnailList = require('./thumbnail-list');
+
 var options = {
 	thumbnailData: [{
 		title: "Show Courses",
@@ -12,15 +12,13 @@ var options = {
 	{
 		title: "Show Courses",
 		number: 25,
-		header: "Learn Gulp",
-		description: "Gulp will speed up your development work flow. It is similar to a build too like grunt but actually a quite a bit different.",
+		header: "Learn Gulp DUDE!!!!",
+		description: "!!! Gulp will speed up your development work flow. It is similar to a build too like grunt but actually a quite a bit different.",
 		imageUrl: "https://pbs.twimg.com/profile_images/417078109075034112/iruTC031_400x400.png"
 	}
 	]
 };	
 
-
-console.log('thhii')
 
 var element = React.createElement(ThumbnailList, options);
 React.render(element, document.querySelector('.container'));
